@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = ShortUri::VERSION
   spec.authors       = ["Iceskysl"]
   spec.email         = ["iceskysl@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{ShortUri for 126.am}
+  spec.summary       = %q{ShortUri for 126.am,ref http://126.am/client/api_register_new.jsp}
+  spec.homepage      = "https://github.com/IceskYsl/ShortUri"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

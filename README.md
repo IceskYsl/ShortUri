@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+key = "YOUR_KEY"
+long_uri = "http://www.tagskill.com/"
+@short_uri = ShortUri.new(key)
+short_uri = @short_uri.shorten(long_uri)
+puts short_uri
+
+user_short = "ts#{Time.now.to_i}"
+puts @short_uri.alias(long_uri,user_short)
+
+puts @short_uri.expand("http://126.am/tagskill")
+```
 
 ## Contributing
 
